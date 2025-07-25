@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         Tomcat_user = "ec2-user"
-        Tomcat_IP   = "13.218.160.151"
+        Tomcat_IP   = "13.220.126.213"
     }
     stages {
         stage('checkout') {
